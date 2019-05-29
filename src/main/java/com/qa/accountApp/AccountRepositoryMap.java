@@ -2,7 +2,7 @@ package com.qa.accountApp;
 
 import java.util.HashMap;
 
-public class AccountRepositorymap {
+public class AccountRepositoryMap implements AccountRepository {
 	public HashMap<Integer, Account> map = new HashMap<Integer, Account>();
 	
 	public void add(Account account) {
